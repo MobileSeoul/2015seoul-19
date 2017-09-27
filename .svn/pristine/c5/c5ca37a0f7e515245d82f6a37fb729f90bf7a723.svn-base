@@ -1,0 +1,2 @@
+configurations.create("default")
+artifacts.add("default", file('simple-xml-2.7.1.jar'))

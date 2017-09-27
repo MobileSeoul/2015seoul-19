@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="subtitle_text_size">15dp</dimen>
+    <dimen name="main_info_text_size">12.5dp</dimen>
+</resources>

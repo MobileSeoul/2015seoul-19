@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Android\Houseofcartoon\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="F:\Android\Houseofcartoon\app\build\intermediates\pre-dexed\debug\classes-c8bd2bb14838b4d7dd99e4b1874c0c8c257814e6.jar" />
+    </item>
+    <item
+        jar="F:\Android\Houseofcartoon\simple-xml-2.7.1\simple-xml-2.7.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="083623424bcfa03bd598e709765bad0816c2375d">
+        <dex dex="F:\Android\Houseofcartoon\app\build\intermediates\pre-dexed\debug\simple-xml-2.7.1-45f9d397e863f5f65a3d70b28df77d23b9584822.jar" />
+    </item>
+    <item
+        jar="F:\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="F:\Android\Houseofcartoon\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-c082abb41dc8647fb78a8d5cf59a0f82b2a9055a.jar" />
+    </item>
+    <item
+        jar="C:\Users\HanyLuv\.gradle\caches\modules-2\files-2.1\com.navercorp.volleyextensions\volley-requests\2.0.1\eada8c572e1646eae60d2cb35050c444f21bdb5b\volley-requests-2.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eada8c572e1646eae60d2cb35050c444f21bdb5b">
+        <dex dex="F:\Android\Houseofcartoon\app\build\intermediates\pre-dexed\debug\volley-requests-2.0.1-a344c7b7725047653df3e95226bb44640ddc8e3f.jar" />
+    </item>
+    <item
+        jar="C:\Users\HanyLuv\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.2\d1cfcc430498440da1017116394e0098aff03aa8\library-1.0.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d1cfcc430498440da1017116394e0098aff03aa8">
+        <dex dex="F:\Android\Houseofcartoon\app\build\intermediates\pre-dexed\debug\library-1.0.2-c5817ddec08a428b7705253bd5737e783a57aa06.jar" />
+    </item>
+    <item
+        jar="F:\Android\Houseofcartoon\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="F:\Android\Houseofcartoon\app\build\intermediates\pre-dexed\debug\classes-554dcaa89687a4de3477f765471c3e611ef8d265.jar" />
+    </item>
+    <item
+        jar="C:\Users\HanyLuv\.gradle\caches\modules-2\files-2.1\com.navercorp.volleyextensions\volley-extensions-common-utils\2.0.1\a7459ddf9411ebac032d30d2730c8b558170256\volley-extensions-common-utils-2.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0a7459ddf9411ebac032d30d2730c8b558170256">
+        <dex dex="F:\Android\Houseofcartoon\app\build\intermediates\pre-dexed\debug\volley-extensions-common-utils-2.0.1-ab1cbb7a97049d06eca36296699ee718a9cba695.jar" />
+    </item>
+    <item
+        jar="F:\Android\Houseofcartoon\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="F:\Android\Houseofcartoon\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-12c59b418af9e3131d46c525133979b3c6d03f0d.jar" />
+    </item>
+
+</items>

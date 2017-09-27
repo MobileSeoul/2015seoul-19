@@ -1,0 +1,72 @@
+package task;
+
+import android.content.Context;
+import android.graphics.Color;
+import android.os.AsyncTask;
+import android.os.Looper;
+import android.support.annotation.NonNull;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
+import android.widget.FrameLayout;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.Objects;
+
+import db.CartoonDAOImpl;
+
+/**
+ * Created by HanyLuv on 2015-10-27.
+ */
+public class AutoCompleteListSetThread extends Thread {
+    private AutoCompleteTextView autoCompleteTextView;
+    private ProgressBar progressBar;
+    private Context context;
+    private LayoutInflater inflate;
+    private ArrayList<String> serchTitleList;
+    private FrameLayout loadingBackLayout;
+
+    /**
+     * 순서 지켜야함
+     *
+     * @param views[0] AutoCompleteTextView
+     * @param views[1] progressBar
+     */
+    public AutoCompleteListSetThread(Context context, @NonNull ArrayList<String> serchTitleList, @NonNull View... views) {
+        this.context = context;
+        this.serchTitleList = serchTitleList;
+        autoCompleteTextView = (AutoCompleteTextView) views[0];
+        progressBar = (ProgressBar) views[1];
+        inflate = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+    }
+
+    @Override
+    public void run() {
+//        super.run();
+        Looper.prepare();
+        autoCompleteTextView.setAdapter(new ArrayAdapter<String>(context, android.R.layout.simple_list_item_1, serchTitleList) {
+                                            @Override
+                                            public View getView(int position, View convertView, ViewGroup parent) {
+                                                View view = null;
+                                                TextView textView = null;
+                                                if (convertView == null) {
+                                                    view = inflate.inflate(android.R.layout.simple_list_item_1, null);
+                                                } else {
+                                                    view = convertView;
+                                                }
+                                                textView = (TextView) view.findViewById(android.R.id.text1);
+                                                textView.setTextColor(Color.GRAY);
+                                                return super.getView(position, view, parent);
+                                            }
+                                        }
+
+        );
+        progressBar.setVisibility(View.GONE);
+        Looper.loop();
+    }
+
+}

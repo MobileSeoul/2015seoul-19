@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divider_color">#BDBDBD</color>
+    <color name="ffffff">#ffffff</color>
+    <color name="select_color">#43c1d3</color>
+    <color name="no_select_color">#ff5104</color>
+    <color name="relation_parent_color">#88ff5104</color>
+    <color name="fff5104">#ff5104</color>
+    <color name="f333333">#333333</color>
+    <color name="f95ffc7">#95ffc7</color>
+</resources>

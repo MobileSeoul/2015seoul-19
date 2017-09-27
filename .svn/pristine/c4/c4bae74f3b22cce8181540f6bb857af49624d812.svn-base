@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/relation_parent_color"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/parent_top_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color" />
+
+        <TextView
+            android:id="@+id/parent_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="parent_text"
+            android:textColor="@color/ffffff"
+            android:textSize="@dimen/parent_text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="총 "
+            android:textColor="@color/ffffff"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/total_serch_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 검색결과 "
+            android:textColor="@color/f95ffc7"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 건"
+            android:textColor="@color/ffffff"
+            android:textSize="11dp" />
+
+    </LinearLayout>
+</RelativeLayout><!-- From: file:/F:/Android/Houseofcartoon/app/src/main/res/layout/relation_group_itme.xml -->

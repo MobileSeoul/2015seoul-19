@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">만화의 집 - 도서 검색</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="seoul_open_api_key">524746667472757a39375274544b55</string>
+
+    <string name="empty_author">작가 미상</string>
+    <string name="empty_company">출판사 미상</string>
+    <string name="empty_international_book_number">국제표준도서번호 등록안됨</string>
+    <string name="empty_published">출판일 미상</string>
+
+    <string name="total_book_count">33087</string>
+
+
+    <!--검색에 사용된 텍스트-->
+    <string name="btn_serch">검색</string>
+    <string name="btn_title">도서명</string>
+    <string name="btn_author">작가</string>
+    <string name="btn_company">출판사</string>
+    <string name="serch_result_start">총</string>
+    <string name="serch_result_end">건</string>
+    <string name="no_serch_data">찾으시는 정보가 없습니다.</string>
+
+    <string name="serch_hint">검색어를 입력해주세요.</string>
+
+    <!--관련된 자료 출력 -->
+    <string name="relation_title">해당 도서의 관련도서</string>
+    <string name="relation_author">해당 작가의 다른도서</string>
+    <string name="relation_company">해당 출판사의 다른도서</string>
+
+
+    <!--메인-->
+    <string name="home_00">장소 만화의집서울특별시 중구 소파로 126 서울애니매이션센타</string>
+    <string name="home_01">운영시간</string>
+    <string name="home_02">매주 화~일요일 (09:00~18:00) / 월요일 및 법정 공휴일은 휴관</string>
+    <string name="home_03">연락처</string>
+    <string name="home_04">02-3455-8330</string>
+
+</resources>
